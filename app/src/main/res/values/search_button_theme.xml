@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="search_button" parent="Widget.AppCompat.Button.Colored">
+        <!-- Primary brand color. -->
+
+        <item name="colorPrimary">?attr/buttonTint</item>
+        <item name="colorPrimaryVariant">@color/card_background</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="editTextBackground">?attr/editTextBackground</item>
+        <item name="materialThemeOverlay">?attr/buttonStyle</item>
+
+
+    </style>
+</resources>

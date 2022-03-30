@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">NutriPedia</string>
+    <string name="no_internet_message">No Internet connection found !</string>
+    <string name="invalid_name">Please enter a valid name.</string>
+    <string name="hint_enter_name">Enter food name here</string>
+    <string name="no_details_found">No nutrition details found.</string>
+    <string name="search">search</string>
+    <string name="sugar_g">Sugar (g)</string>
+    <string name="fat_total_g">Fat total (g)</string>
+    <string name="fat_saturated_g">Fat saturated (g)</string>
+    <string name="calories">Calories</string>
+    <string name="cholesterol_mg">Cholesterol (mg)</string>
+    <string name="protein_g">Protein (g)</string>
+    <string name="carbohydrates_total_g">Carbohydrates total (g)</string>
+    <string name="sodium_mg">Sodium (mg)</string>
+    <string name="potassium_mg">Potassium (mg)</string>
+    <string name="fiber_g">Fiber (g)</string>
+    <string name="nutritions">Sugar (g)\nFat total (g)\nFat saturated (g)\nCalories\nCholesterol (mg)\nProtein (g)\nCarbohydrates total (g)\nSodium (mg)\nPotassium (mg)\nFiber (g)</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.138" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/button_background.xml" value="0.2405" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/card_background.xml" value="0.176" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/curser.xml" value="0.2405" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/d_edittext_background.xml" value="0.2405" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/d_search_button_background.xml" value="0.2405" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/edittext_background.xml" value="0.2405" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.136" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/search_button_background.xml" value="0.2405" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/drawable/splash_background.xml" value="0.136" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/activity_detail_viewer.xml" value="0.2296195652173913" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/activity_listview.xml" value="0.264" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/detail_card.xml" value="0.536" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/nutrition_amount_layout.xml" value="0.6" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/nutrition_list_layout.xml" value="0.6" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/layout/splash_background.xml" value="0.6" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.121" />
+        <entry key="..\:/Users/zincore/AndroidStudioProjects/NutriPedia/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.136" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

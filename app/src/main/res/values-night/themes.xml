@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NutriPedia" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/D_background_main</item>
+        <item name="colorPrimaryVariant">@color/D_card_background</item>
+        <item name="cardBackgroundColor">@color/D_card_background</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="buttonTint">@color/D_search_button</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">#DAFFFFFF</item>
+        <item name="textFillColor">#BFFFFFFF</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="editTextBackground">@drawable/d_edittext_background</item>
+        <item name="buttonStyle">@drawable/d_search_button_background</item>
+    </style>
+
+    <style name="forListView">
+        <item name="android:textColor">#80FFFFFF</item>
+    </style>
+</resources>
