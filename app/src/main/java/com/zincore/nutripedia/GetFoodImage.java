@@ -39,7 +39,7 @@ public class GetFoodImage extends AsyncTask<String, Void, String> {
         String resBody;
 
         OkHttpClient client = new OkHttpClient();
-        String url = "https://pixabay.com/api/?key=26182469-fc6c96051a4ec830620d8f4ab&q=" + query[0].replace(" ", "+") + "&image_type=photo&category=food&editors_choice=true";
+        String url = "https://pixabay.com/api/?key=putyourapikeyhere=" + query[0].replace(" ", "+") + "&image_type=photo&category=food&editors_choice=true";
 
         Request request = new Request.Builder()
                 .url(url)
