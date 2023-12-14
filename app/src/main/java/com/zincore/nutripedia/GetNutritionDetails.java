@@ -43,7 +43,7 @@ public class GetNutritionDetails extends AsyncTask<String, Void, String> {
                 .url(url)
                 .get()
                 .addHeader("x-rapidapi-host", "calorieninjas.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", "f424651ee7msh036ca3719beb42dp1ab10ajsn4831784ef652")
+                .addHeader("x-rapidapi-key", "your_api_key_here")
                 .build();
 
         try {
