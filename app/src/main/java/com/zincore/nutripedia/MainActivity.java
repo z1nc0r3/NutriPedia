@@ -30,7 +30,6 @@ import androidx.cardview.widget.CardView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.CenterCrop;
-import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 
 import java.lang.ref.WeakReference;
 
@@ -68,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         background = findViewById(R.id.background);
 
-        Glide.with(getApplicationContext()).load(R.drawable.sample_food).transform(new CenterCrop(), new RoundedCorners(50)).override(width, height - getStatusBarHeight()).into(background);
+        Glide.with(getApplicationContext()).load(R.drawable.sample_food).override(width, height - getStatusBarHeight()).into(background);
 
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 

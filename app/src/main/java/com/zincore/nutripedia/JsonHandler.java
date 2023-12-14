@@ -3,6 +3,7 @@ package com.zincore.nutripedia;
 import android.content.Context;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -36,6 +37,8 @@ public class JsonHandler {
             return items.getJSONObject(0).getString("name");
         } catch (JSONException e) {
             return "none";
+        } catch (Exception e) {
+            return "Error";
         }
     }
 
@@ -45,6 +48,8 @@ public class JsonHandler {
                 amounts.add(items.getJSONObject(0).getString(nutrition));
             } catch (JSONException ignored) {
                 // ignored
+            } catch (Exception e) {
+                Toast.makeText(contextRef.get().getApplicationContext(), "No internet connection found.", Toast.LENGTH_SHORT).show();
             }
         }
 

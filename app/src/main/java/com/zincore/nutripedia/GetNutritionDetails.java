@@ -43,7 +43,7 @@ public class GetNutritionDetails extends AsyncTask<String, Void, String> {
                 .url(url)
                 .get()
                 .addHeader("x-rapidapi-host", "calorieninjas.p.rapidapi.com")
-                .addHeader("x-rapidapi-key", "your api key")
+                .addHeader("x-rapidapi-key", "f424651ee7msh036ca3719beb42dp1ab10ajsn4831784ef652")
                 .build();
 
         try {
@@ -81,6 +81,8 @@ public class GetNutritionDetails extends AsyncTask<String, Void, String> {
 
                 bigFoodNameRef.get().setText(jsonHandler.getName());
 
+            } else if (jsonHandler.getName().equals("Error")) {
+                Toast.makeText(contextRef.get().getApplicationContext(), "No internet connection found.", Toast.LENGTH_SHORT).show();
             } else {
                 Toast.makeText(contextRef.get().getApplicationContext(), "Please enter a valid name.", Toast.LENGTH_SHORT).show();
                 if (!isPreGood)
